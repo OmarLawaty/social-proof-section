@@ -1,0 +1,203 @@
+/*---------------Global Styling-------------*/
+body {
+  width: 100vw;
+  height: 100vh;
+  font: 400 15px "Spartan", sans-serif;
+  overflow: hidden;
+  /* background-image: url(/design/desktop-design.jpg);
+  opacity: 50%; */
+}
+
+/*---------------Content Stylying-----------*/
+main {
+  position: relative;
+  height: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 55.3%;
+  left: 49.5%;
+  transform: translate(-50%, -49.5%);
+  width: 1110px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  /* border: 1px solid; */
+}
+
+/*---------------Top Content-----------*/
+
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 240px;
+}
+
+/*---------------Title-----------*/
+
+.intro {
+  width: 450px;
+  line-height: 25px;
+  padding-top: 5px;
+}
+
+.users-amount {
+  font-size: 48px;
+  letter-spacing: -2px;
+  line-height: 47px;
+  font-weight: 800;
+  width: 400px;
+  margin: 0;
+  color: hsl(300, 43%, 22%);
+}
+
+.company-services {
+  font-weight: 500;
+  font-size: 15px;
+  color: hsl(303, 10%, 53%);
+  letter-spacing: -0.5px;
+}
+
+/*---------------Ratings-----------*/
+
+.ratings {
+  width: 514px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.ratings p {
+  display: flex;
+  justify-content: center;
+  width: max-content;
+}
+.ratings p span {
+  margin-left: 30px;
+  color: hsl(300, 43%, 22%);
+}
+
+.stars {
+  display: inline;
+  margin-left: 7px;
+  width: 18px;
+}
+
+.report-guru {
+  margin-left: 9%;
+}
+
+.BestTech {
+  margin-left: 18%;
+}
+
+/*---------------Customers reviews-----------*/
+
+.comments {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translate(0, -100%);
+  width: 100%;
+  height: 53%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-gap: 30px;
+}
+
+.cards {
+  background-color: #502050;
+  width: 290px;
+  height: 214px;
+  padding: 10px 30px;
+  border-radius: 7.5px;
+  color: hsl(300, 24%, 96%);
+  font-weight: 400;
+}
+
+.card2 {
+  margin-top: 15px;
+}
+
+.card3 {
+  margin-top: 30px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 95px;
+}
+
+.card1 .profile-info {
+  margin: 4px 0 0 0px;
+}
+
+.prof-pic {
+  float: left;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.card2 .prof-pic {
+  margin-top: 3px;
+}
+
+.card3 .prof-pic {
+  margin-top: 3px;
+}
+
+.status {
+  color: #ee68a4;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 3px;
+  opacity: 80%;
+}
+
+.social-info {
+  margin-left: 22px;
+  margin-top: 10px;
+}
+
+.name {
+  font-weight: bold;
+  width: max-content;
+  margin: 5px 0;
+  font-size: 13px;
+  letter-spacing: 0px;
+}
+
+.card2 .name {
+  margin-top: 11px;
+}
+
+.card3 .name {
+  margin-top: 11px;
+}
+
+.comment {
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.card2 .comment {
+  margin-top: 5px;
+}
+
+.card3 .comment {
+  margin-top: 5px;
+}
